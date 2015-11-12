@@ -19,5 +19,6 @@ public class DragonSlayer {
 
   public void goToBattle() {
     strategy.execute();
+    System.out.println("Strategy Executed");
   }
 }
