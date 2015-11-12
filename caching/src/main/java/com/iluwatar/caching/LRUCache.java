@@ -102,6 +102,7 @@ public class LRUCache {
 
   public void invalidate(String userID) {
     System.out.println("# " + userID + " has been updated! Removing older version from cache...");
+    System.out.println("Executed");
     Node toBeRemoved = cache.get(userID);
     remove(toBeRemoved);
     cache.remove(userID);
